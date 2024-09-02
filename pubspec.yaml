@@ -4,11 +4,10 @@ version: 1.0.0
 publish_to: none
 
 environment:
-  sdk: ^3.4.3
+  sdk: '>=3.3.0 <4.0.0'
 
-# Add regular dependencies here.
+
 dependencies:
-  # path: ^1.8.0
   scotch_dev_error:
     git:
       url: https://github.com/Flutter-Apps-pty/scotch_dev_error.git
